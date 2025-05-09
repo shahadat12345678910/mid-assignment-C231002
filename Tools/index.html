@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint</title>
+
+    <!-- daisyui cdn and tailwind cdn -->
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- css file -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="max-w-[130rem] mx-auto">
+
+    <header class="bg-[var(--header-bg)] px-[1.75rem] pt-[3rem] lg:px-[5rem]">
+        <div class="logo bg-white rounded-full pl-[1.25rem] py-[0.75rem] lg:text-center">
+            <img src="./image/paint-logo.png" alt="logo" class="max-w-[7rem] inline-block">
+        </div>
+
+        <!-- banner start -->
+
+        <div class="banner pb-[5rem] md:flex flex-row-reverse items-center mt-[6rem]">
+
+            <div class="banner-img md:w-1/2">
+                <img src="./image/cover-paint.png" alt="" class="">
+            </div>
+
+            <div class="banner-desc md:w-1/2">
+
+                <div class="banner-txt">
+                    <h2 class="uppercase font-bold text-[var(--yellow)] lg:text-[1.5rem]">risus praesent vulputate.
+                    </h2>
+                    <h2 class="font-bold text-[2.25rem] text-[var(--dark-1)] lg:text-[5rem] lg:leading-[5.6rem]">Cursus
+                        Integer Consequat Tristique.|</h2>
+                </div>
+
+                <!-- banner badges -->
+
+                <div class="banner-badges container flex flex-col gap-y-4 my-[2.5rem] lg:flex-row gap-x-4 flex-wrap">
+                    <!-- badge 1 -->
+                    <div
+                        class="rounded-full bg-white max-w-[14rem] px-4 py-[0.6rem] flex flex-row items-center gap-x-2">
+                        <img src="./image/icon-tick.png" alt="">
+                        <span class="text-[var(--dark-1)] font-semibold">Cursus Integer</span>
+                    </div>
+
+                    <!-- badge 2 -->
+                    <div
+                        class="rounded-full bg-white max-w-[14rem] px-4 py-[0.6rem] flex flex-row items-center gap-x-2">
+                        <img src="./image/icon-tick.png" alt="">
+                        <div class=" text-[var(--dark-1)] font-semibold">Integer Consequat </div>
+                    </div>
+
+                    <!-- badge 3 -->
+                    <div
+                        class="rounded-full bg-white max-w-[18rem] px-4 py-[0.6rem] flex flex-row items-center gap-x-2">
+                        <img src="./image/icon-tick.png" alt="">
+                        <div class="text-[var(--dark-1)] font-semibold ">Tellus Euismod Pellentesque</div>
+                    </div>
+                    <!-- badge 4 -->
+                    <div
+                        class="rounded-full bg-white max-w-[14rem] px-4 py-[0.6rem] flex flex-row items-center gap-x-2">
+                        <img src="./image/icon-tick.png" alt="">
+                        <div class="text-[var(--dark-1)] font-semibold">Aliquot Tristique</div>
+                    </div>
+
+
+
+                </div>
+
+                <button
+                    class="btn bg-[var(--yellow)] rounded-full px-[2.5rem] text-[var(--dark-1)] font-bold text-[1.125rem]">Lorem
+                    Ipsum <span class="ml-[3rem]"><img src="./image/right-arrow.png" alt=""></span>
+                </button>
+            </div>
+        </div>
+
+        <!-- banner ends -->
+
+    </header>
+
+
+    <section class="
+    mid-section-mobile 
+    bg-[var(--dark-1)]
+    px-[2rem]
+    pt-[4rem]
+    pb-[23rem]
+    lg:hidden
+
+    ">
+
+        <div class="mid-section-txt">
+            <div class="mid-section-txt lg:w-1/4">
+                <h2 class="text-[var(--yellow)] text-[1.25rem]">Quisque porttitor vitae vel amet neque scelerisque
+                    mattis.
+                    Consectetur nibh velit magna consectetur leo.
+                </h2>
+                <h2 class="text-white text-[2.5rem] font-bold mt-[1.25rem] mb-[2rem]">Cursus Integer Conseq Aliquam
+                    Tristique. </h2>
+
+                <button
+                    class="btn bg-white rounded-full px-[2.5rem] text-[var(--dark-1)] font-bold text-[1.125rem]">Lorem
+                    Ipsum <span class="ml-[3rem]"><img src="./image/right-arrow.png" alt=""></span>
+                </button>
+            </div>
+        </div>
+
+
+        <!-- mid-section-mobile cards -->
+
+        <div class="mid-mobile-cards mt-[2.5rem] flex flex-col gap-y-6">
+            <!-- card 1 -->
+            <div class="card bg-base-100 w-80 shadow-xl rounded-[3.6rem]">
+                <div class="card-body">
+                    <img src="./image/icon-join.png" alt="" class="max-w-[3.625rem] mb-[1.5rem]">
+
+                    <h2 class="card-title text-[var(--dark-1)] text-[4.3rem] font-bold mb-4">1 <span
+                            class="text-[var(--yellow)]">.</span></h2>
+
+                    <h2 class="font-bold text-[var(--dark-1)] text-[1.4rem] mt-[0.6rem] mb-[1.12rem]">Phasellus Vitae
+                    </h2>
+                    <p class="text-[var(--dark-1)] font-semibold text-[1.25rem]">
+                        Quisque <br><span class="text-[var(--dark-1)] font-light capitalize">Porttitor vitae vel amet
+                        </span>
+                    </p>
+
+                </div>
+            </div>
+
+
+            <!-- card 2-->
+            <div class="card bg-[var(--yellow)] w-80 shadow-xl rounded-[3.6rem]">
+                <div class="card-body">
+                    <img src="./image/icon-inifinity.png" alt="" class="max-w-[3.625rem] mb-[1.5rem]">
+
+                    <h2 class="card-title text-[var(--dark-1)] text-[4.3rem] font-bold mb-4">2 <span
+                            class="text-white">.</span></h2>
+
+                    <h2 class="font-bold text-[var(--dark-1)] text-[1.4rem] mt-[0.6rem] mb-[1.12rem]">Iaculis Magna</h2>
+                    <p class="text-[var(--dark-1)] font-semibold text-[1.25rem]">
+                        Porttitor <br><span class="text-[var(--dark-1)] font-light capitalize">neque scelerisque mattis.
+                        </span>
+                    </p>
+
+                </div>
+            </div>
+
+            <!-- card 3-->
+            <div class="card bg-base-100  w-80 shadow-xl rounded-[3.6rem]">
+                <div class="card-body">
+                    <img src="./image/icon-hands.png" alt="" class="max-w-[3.625rem] mb-[1.5rem]">
+
+                    <h2 class="card-title text-[var(--dark-1)] text-[4.3rem] font-bold mb-4">3 <span
+                            class="text-[var(--yellow)]">.</span></h2>
+
+                    <h2 class="font-bold text-[var(--dark-1)] text-[1.4rem] mt-[0.6rem] mb-[1.12rem]">Eleifend Pulvinar
+                    </h2>
+                    <p class="text-[var(--dark-1)] font-semibold text-[1.25rem]">
+                        Vitae <br><span class="text-[var(--dark-1)] font-light capitalize">Consectetur nibh velit
+                        </span>
+                    </p>
+
+                </div>
+            </div>
+
+            <!-- card 4-->
+            <div class="card bg-[var(--yellow)] w-80 shadow-xl rounded-[3.6rem] ">
+                <div class="card-body">
+                    <img src="./image/icon-man-yoga.png" alt="" class="max-w-[3.625rem] mb-[1.5rem]">
+
+                    <h2 class="card-title text-[var(--dark-1)] text-[4.3rem] font-bold mb-4">4 <span
+                            class="text-white">.</span></h2>
+
+                    <h2 class="font-bold text-[var(--dark-1)] text-[1.4rem] mt-[0.6rem] mb-[1.12rem]">Velit Odio Phir
+                    </h2>
+                    <p class="text-[var(--dark-1)] font-semibold text-[1.25rem]">
+                        Ametneq <br><span class="text-[var(--dark-1)] font-light capitalize">magna consectetur leo.
+                        </span>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        <!-- mid-section-mobile cards ends -->
+
+
+
+    </section>
+    <div class="customer-thought-mobile bg-[var(--yellow)] py-[15rem] relative lg:hidden">
+        <div class="card bg-base-100 w-[21rem] shadow-xl rounded-[3.5rem] absolute bottom-[10rem] left-[1.5rem]">
+            <figure class="px-10 pt-10">
+                <img src="./image/male-photo.png" alt="Shoes" class="rounded-full" />
+            </figure>
+            <div class="card-body items-center text-center">
+                <h2 class="card-title text-[var(--dark-1)] text-[1.8rem] font-bold">What our customers thought?</h2>
+                <p class="text-[var(--dark-1)] mt-[1.25rem]">Euismod magna id purus eget nunc ligula suspendisse dui
+                    netus.
+                    Condimentum blandit rutrum at mauris enim pulvinar duis etiam duis. </p>
+                <p class="text-[1.5rem] text-[var(--dark-1)] font-bold">Holly Davidson</p>
+                <div class="card-actions mt-[1.8rem]">
+                    <div class="flex flex-row gap-x-4">
+                        <span><img src="./image/trending-flat-left-black.png" alt=""></span>
+                        <span><img src="./image/trending-flat-right.png" alt=""></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section
+        class="mid-section-desktop bg-[var(--dark-1)] hidden lg:flex flex-row items-center px-[2rem] pt-[10rem] pb-[23rem]">
+        <div class="mid-section-txt">
+            <h2 class="text-[var(--yellow)] text-[1.25rem] ">Quisque porttitor vitae vel amet
+                neque scelerisque mattis. <br>
+                Consectetur nibh velit magna consectetur leo.
+            </h2>
+            <h2 class="text-white text-[2.5rem] font-bold mt-[1.25rem] mb-[2rem]">Cursus Integer <br>
+                Conseq Aliquam Tristique. </h2>
+
+            <button class="btn bg-white rounded-full px-[2.5rem] text-[var(--dark-1)] font-bold text-[1.125rem]">Lorem
+                Ipsum <span class="ml-[3rem]"><img src="./image/right-arrow.png" alt=""></span>
+            </button>
+        </div>
+
+        <div class="mid-cards flex flex-row gap-[1.5rem] relative flex-wrap mb-[10rem] ml-[3rem]">
+            <div class="col-1">
+                <!-- card 1 -->
+                <div class="card bg-base-100 w-80 shadow-xl rounded-[3.6rem] mb-[1.5rem]">
+                    <div class="card-body">
+                        <img src="./image/icon-inifinity.png" alt="" class="max-w-[3.625rem] mb-[1.5rem]">
+
+                        <h2 class="card-title text-[var(--dark-1)] text-[4.3rem] font-bold mb-4">1 <span
+                                class="text-[var(--yellow)]">.</span></h2>
+
+                        <h2 class="font-bold text-[var(--dark-1)] text-[1.4rem] mt-[0.6rem] mb-[1.12rem]">Phasellus
+                            Vitae
+                        </h2>
+                        <p class="text-[var(--dark-1)] font-semibold text-[1.25rem]">
+                            Quisque <br><span class="text-[var(--dark-1)] font-light capitalize">Porttitor vitae vel
+                                amet
+                            </span>
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="card bg-[var(--yellow)] w-80 shadow-xl rounded-[3.6rem]">
+                    <div class="card-body">
+                        <img src="./image/icon-inifinity.png" alt="" class="max-w-[3.625rem] mb-[1.5rem]">
+
+                        <h2 class="card-title text-[var(--dark-1)] text-[4.3rem] font-bold mb-4">3 <span
+                                class="text-white">.</span></h2>
+
+                        <h2 class="font-bold text-[var(--dark-1)] text-[1.4rem] mt-[0.6rem] mb-[1.12rem]">Iaculis Magna
+                        </h2>
+                        <p class="text-[var(--dark-1)] font-semibold text-[1.25rem]">
+                            Porttitor <br><span class="text-[var(--dark-1)] font-light capitalize">neque scelerisque
+                                mattis.
+                            </span>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-2 absolute top-[7.75rem] left-[21.5rem]">
+                <!-- card 2-->
+
+                <!-- card 4-->
+                <div class="card bg-[var(--yellow)] w-80 shadow-xl rounded-[3.6rem] mb-[1.5rem]">
+                    <div class="card-body">
+                        <img src="./image/icon-man-yoga.png" alt="" class="max-w-[3.625rem] mb-[1.5rem]">
+
+                        <h2 class="card-title text-[var(--dark-1)] text-[4.3rem] font-bold mb-4">2 <span
+                                class="text-white">.</span></h2>
+
+                        <h2 class="font-bold text-[var(--dark-1)] text-[1.4rem] mt-[0.6rem] mb-[1.12rem]">Velit Odio
+                            Phir
+                        </h2>
+                        <p class="text-[var(--dark-1)] font-semibold text-[1.25rem]">
+                            Ametneq <br><span class="text-[var(--dark-1)] font-light capitalize">magna consectetur leo.
+                            </span>
+                        </p>
+
+                    </div>
+                </div>
+                <!-- card 3-->
+                <div class="card bg-base-100  w-80 shadow-xl rounded-[3.6rem]">
+                    <div class="card-body">
+                        <img src="./image/icon-hands.png" alt="" class="max-w-[3.625rem] mb-[1.5rem]">
+
+                        <h2 class="card-title text-[var(--dark-1)] text-[4.3rem] font-bold mb-4">4 <span
+                                class="text-[var(--yellow)]">.</span></h2>
+
+                        <h2 class="font-bold text-[var(--dark-1)] text-[1.4rem] mt-[0.6rem] mb-[1.12rem]">Eleifend
+                            Pulvinar
+                        </h2>
+                        <p class="text-[var(--dark-1)] font-semibold text-[1.25rem]">
+                            Vitae <br><span class="text-[var(--dark-1)] font-light capitalize">Consectetur nibh velit
+                            </span>
+                        </p>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <div class="customer-thought bg-[var(--yellow)] py-[15rem] relative hidden lg:block">
+        <div
+            class="card bg-base-100 w-[90%] shadow-xl rounded-[3.5rem] absolute bottom-[13rem] left-[4.5rem] flex flex-row items-center py-[3rem]">
+            <figure class="px-10 pt-10">
+                <img src="./image/male-photo.png" alt="Shoes" class="rounded-full" />
+            </figure>
+            <div class="card-body text-left">
+                <h2 class="card-title text-[var(--dark-1)] text-[3rem] font-bold leading-10">What our customers thought?
+                </h2>
+                <p class="text-[var(--dark-1)] mt-[2rem] ">Euismod magna id purus eget nunc ligula suspendisse dui <br>
+                    netus.Condimentum blandit rutrum at mauris enim pulvinar duis etiam duis. </p>
+                <p class="text-[1.5rem] text-[var(--dark-1)] font-bold">Holly Davidson</p>
+                <div class="card-actions mt-[1.8rem]">
+                    <div class="flex flex-row gap-x-4">
+                        <span><img src="./image/trending-flat-left-black.png" alt=""></span>
+                        <span><img src="./image/trending-flat-right.png" alt=""></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="accords bg-[var(--dark-1)] pt-[8rem] pb-[4rem] px-[1.25rem] lg:px-[5rem]">
+        <div class="accord-txt text-center">
+            <h2 class="text-white font-bold text-[2.5rem]">Phasellus a vitae iaculis magna.</h2>
+            <h2 class="text-white mt-[1.25rem]">Phasellus a vitae iaculis magna eleifend pulvinar velit odio.</h2>
+        </div>
+
+        <div class="accord-body mt-[2.5rem]">
+            <div class="collapse collapse-plus rounded-[2.5rem] px-[3rem] py-[1.5rem] bg-base-200">
+                <input type="radio" name="my-accordion-3" checked="checked" />
+                <div class="collapse-title text-xl font-bold">Quam vehicula faucibus amet lorem. </div>
+                <div class="collapse-content">
+                    <p class="text-[18px]">Euismod magna id purus eget nunc ligula suspendisse dui netus. Condimentum
+                        blandit rutrum at mauris enim pulvinar duis etiam duis. Mauris fermentum praesent tellus
+                        euismod.</p>
+                </div>
+            </div>
+            <div class="collapse collapse-plus rounded-[2.5rem] px-[3rem] py-[1.5rem] bg-base-200 my-[1.05rem]">
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title text-xl font-bold">Pellentesque tempus sed phasellus vel. </div>
+                <div class="collapse-content">
+                    <p class="text-[18px]">Euismod magna id purus eget nunc ligula suspendisse dui netus. Condimentum
+                        blandit rutrum at mauris enim pulvinar duis etiam duis. Mauris fermentum praesent tellus
+                        euismod.</p>
+                </div>
+            </div>
+            <div class="collapse collapse-plus rounded-[2.5rem] px-[3rem] py-[1.5rem] bg-base-200">
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title text-xl font-bold">Mauris fermentum praesent tellus euismod pellentesque urna
+                    ac massa in. </div>
+                <div class="collapse-content">
+                    <p class="text-[18px]">Euismod magna id purus eget nunc ligula suspendisse dui netus. Condimentum
+                        blandit rutrum at mauris enim pulvinar duis etiam duis. Mauris fermentum praesent tellus
+                        euismod.</p>
+                </div>
+            </div>
+            <div class="collapse collapse-plus rounded-[2.5rem] px-[3rem] py-[1.5rem] bg-base-200 mt-[1.05rem]">
+                <input type="radio" name="my-accordion-3" class="bg-[var(--yellow)]" />
+                <div class="collapse-title text-xl font-bold">Vulputate et vulputate suspendisse natoque id tellus
+                    consectetur pulvinar et. </div>
+                <div class="collapse-content">
+                    <p class="text-[18px]">Euismod magna id purus eget nunc ligula suspendisse dui netus. Condimentum
+                        blandit rutrum at mauris enim pulvinar duis etiam duis. Mauris fermentum praesent tellus
+                        euismod.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer bg-[var(--header-bg)] text-black py-[3rem] px-[1.25rem] flex flex-col lg:items-center lg:px-[5rem]">
+
+        <div class="first-part border-b-2 border-slate-400 pb-[2rem] lg:flex flex-row w-full justify-between">
+            <h2 class="font-bold text-[2rem] mb-[2rem] leading-8">Vulputate et pulvinar ethre <br>Suspendisse tellus consecteur</h2>
+            <button
+                class="btn bg-[var(--yellow)] rounded-full px-[2.5rem] text-[var(--dark-1)] font-bold text-[1.125rem]">Lorem
+                Ipsum <span class="ml-[3rem]"><img src="./image/right-arrow.png" alt=""></span>
+            </button>
+        </div>
+
+        <div class="second-part font-semibold lg:flex flex-row w-full justify-between">
+            <p>Copyright © 2022 Lorem Ipsum.</p>
+            <p>Privacy Policy | Terms & Conditions</p>
+        </div>
+
+    </footer>
+</body>
+
+</html>
+
+<!--  -->

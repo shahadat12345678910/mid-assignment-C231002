@@ -1,0 +1,10 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root{
+    --dark-1:#262626;
+    --yellow:#F9B800;
+    --header-bg:#FEEDBC;
+}
+
